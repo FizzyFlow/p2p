@@ -1,0 +1,36 @@
+{
+  "name": "fizzyflow-p2p",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=8.9.0"
+  },
+  "description": "",
+  "main": "./index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "Jeka Kiselyov <jeka911@gmail.com> (https://github.com/jeka-kiselyov)",
+  "license": "AGPL-3.0+",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FizzyFlow/p2p.git"
+  },
+  "dependencies": {
+    "bignum": "^0.12.5",
+    "fizzyflow-utils": "github:FizzyFlow/utils",
+    "ip-address": "^5.8.8",
+    "lodash": "^4.17.4",
+    "rfr": "^1.2.3",
+    "winston": "^2.3.1",
+    "ws": "^3.2.0"
+  },
+  "bundleDependencies": [
+    "rfr"
+  ],
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-mocha-cli": "^3.0.0",
+    "grunt-node-version": "^1.0.2",
+    "unexpected": "^10.35.0"
+  }
+}
